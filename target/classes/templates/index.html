@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/index.js"></script>
+
+</head>
+
+<body>
+	<h2 id="heading">Details Form</h2>
+
+	<hr class="half"><br>
+
+	<form name="form">
+		<label class="labels">Name :</label>
+		<input type="text" name="name" id="name" required><br>
+
+		<label class="labels">Mob. No. :</label>
+		<input type="number" name="number" id="num" required><br>
+
+		<label class="labels">Email ID : </label>
+		<input type="email" name="email" id="email" required><br>
+	</form><br>
+
+	<div class="text-center">
+		<button class="mid" type="submit">Submit</button>
+	</div>
+
+	<hr>
+
+	<table style="opacity: 0;" id="info" align="center">
+		<tr class="headers">
+			<th id="nameheader">Name</th>
+			<th id="numheader">Mob. No.</th>
+			<th id="emailheader">Email ID</th>
+			<th id="deleteheader"></th>
+		</tr>
+	</table>
+</body>
+
+</html>

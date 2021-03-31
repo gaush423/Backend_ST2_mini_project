@@ -1,0 +1,63 @@
+body {
+    font-family: Calibri;
+    font-size: 20px;
+    background-color: #93C2F1;
+}
+
+h2 {
+    text-align: center;
+}
+
+hr.half {
+    width: 50%;
+}
+
+input {
+    justify-content: space-between;
+}
+
+form {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+form>* {
+    margin-bottom: 20px;
+}
+
+table {
+    align-items: center;
+    width: 50%;
+    grid-template-columns: auto auto auto auto;
+}
+
+td {
+    text-align: center;
+}
+
+.labels {
+    grid-column: 2 / 3;
+}
+
+.inputs {
+    grid-column: 3 / 4;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mid {
+    width: 30%;
+    background-color: #F193C2;
+    padding: 10px 16px;
+    text-align: center;
+    font-size: 26px;
+    margin: 4px 2px;
+}
+
+.delete {
+    background-color: #C2F193;
+    padding: 7px;
+}
